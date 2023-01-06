@@ -3,8 +3,8 @@ import ItemsSlider from './slider';
 const Slider = () => {
   return (
     <div className="relative mt-10 lg:mx-36">
-      <div className="w-full text-center p-0 xl:p-0">
-        <div className="my-14 text-center text-2xl sm:text-4xl xl:text-3xl font-black text-[#8a50a0] xl:px-40">
+      <div className="w-full text-center px-4 xl:p-0">
+        <div className="my-14 text-center text-2xl sm:text-4xl xl:text-3xl font-black text-[#8a50a0] px-10 xl:px-40">
           We ve helped over 200,000 People create better, deeper, more 
           meaningful relationships just see what they have to say about it!
         </div>

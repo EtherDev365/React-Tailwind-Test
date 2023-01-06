@@ -9,8 +9,8 @@ const Video = () => {
   };
 
   return (
-    <div className="relative">
-      <div className="w-full text-center p-4 shadow-[0px_0px_10px_2px_rgba(0,0,0,0.15)] rounded-lg">
+    <div className="relative px-4">
+      <div className="w-full text-center  p-4 shadow-[0px_0px_10px_2px_rgba(0,0,0,0.15)] rounded-lg">
         <div className="relative">
           <video className="w-full ">
             <source className="" src='https://storage.googleapis.com/pds_videos/testimonial-video-short%20.mp4' type='video/mp4'/>
