@@ -17,7 +17,7 @@ const Video = () => {
           </video>
           <div className="absolute left-5 top-0 h-full w-1/2  flex items-center justify-end" onClick={() => setModal(true)}>
             <button className="rounded-full w-12 h-12 flex items-center justify-center pl-0.5 ring-2 ring-white focus:outline-none">
-              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="white" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="white" stroke="#ffffff" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
             </button>
           </div>
         </div>

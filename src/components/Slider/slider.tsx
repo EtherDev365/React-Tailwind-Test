@@ -25,16 +25,16 @@ export default function ItemsSlider() {
         className="mySwiper "
       >
         <SwiperSlide className="mb-20 ">
-            <div className="relative mx-1 pt-24">
-                <div className="rounded-[20px] border border-[#8a50a0] h-[400px] w-[300px] px-6 py-10">
+            <div className={`relative mx-1 pt-20`}>
+                <div className={`rounded-[20px] border border-[#8a50a0] ${size.width >= 390? "h-[340px] w-[280px] px-6":"h-[300px] w-[180px] px-4"}  py-10`}>
                     <div className=" flex gap-1">
-                        <AiFillStar size={30} color={"#8a50a0"}/>
-                        <AiFillStar size={30} color={"#8a50a0"}/>
-                        <AiFillStar size={30} color={"#8a50a0"}/>
-                        <AiFillStar size={30} color={"#8a50a0"}/>
-                        <AiFillStar size={30} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
                     </div>
-                    <div className="h-full text-start overflow-auto text-[15px] font-poppins pt-6 font-medium">
+                    <div className={`h-full text-start overflow-auto ${size.width >= 390? "text-[12.5px]":"text-[8.5px]"} font-poppins pt-6 font-medium`}>
                         "I’ve researched relationships most of 
                         my life. However, I couldn’t find anything 
                         that explained my dynamic in them. I 
@@ -47,32 +47,32 @@ export default function ItemsSlider() {
                         problem and how to solve it!"
                     </div>
                 </div>
-                <div className="absolute top-3 left-5 flex items-center">
-                    <div className="rounded-full shadow-[0px_0px_5px_5px_rgba(0,0,0,0.15)]  p-[3px] bg-white h-24">
+                <div className={`absolute ${size.width >= 390? "top-3":"top-7"} left-5 flex items-center`}>
+                    <div className={`rounded-full shadow-[0px_0px_5px_5px_rgba(0,0,0,0.15)]  p-[3px] bg-white ${size.width >= 390? 'h-20':'h-16'}`}>
                         <img src={Avatar} alt="" className="rounded-full"/>
                     </div>
                     <div className="pl-2 text-start">
-                        <div className="font-poppins font-medium">
+                        <div className={`font-poppins font-bold tracking-[1.5px] ${size.width >= 390? "text-[15px]":"text-[11px]"}` }>
                             M E L I S S A
                         </div>
-                        <div className="font-poppins text-sm">
+                        <div className={`font-poppins  ${size.width >= 390? "text-[13px]":"text-[10px]"}`}>
                             Colorado, USA
                         </div>
                     </div>
                 </div>
             </div>
         </SwiperSlide>
-        <SwiperSlide className="mb-20">
-            <div className="relative mx-1 pt-24">
-                <div className="rounded-[20px] border border-[#8a50a0] h-[400px] w-[300px] px-6 py-10">
+        <SwiperSlide className="mb-20 ">
+            <div className={`relative mx-1 pt-20`}>
+                <div className={`rounded-[20px] border border-[#8a50a0] ${size.width >= 390? "h-[340px] w-[280px] px-6":"h-[300px] w-[180px] px-4"}  py-10`}>
                     <div className=" flex gap-1">
-                        <AiFillStar size={30} color={"#8a50a0"}/>
-                        <AiFillStar size={30} color={"#8a50a0"}/>
-                        <AiFillStar size={30} color={"#8a50a0"}/>
-                        <AiFillStar size={30} color={"#8a50a0"}/>
-                        <AiFillStar size={30} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
                     </div>
-                    <div className="h-full text-start overflow-auto text-[15px] font-poppins pt-6 font-medium">
+                    <div className={`h-full text-start overflow-auto ${size.width >= 390? "text-[12.5px]":"text-[8.5px]"} font-poppins pt-6 font-medium`}>
                         "I’ve researched relationships most of 
                         my life. However, I couldn’t find anything 
                         that explained my dynamic in them. I 
@@ -85,32 +85,32 @@ export default function ItemsSlider() {
                         problem and how to solve it!"
                     </div>
                 </div>
-                <div className="absolute top-3 left-5 flex items-center">
-                    <div className="rounded-full shadow-[0px_0px_5px_5px_rgba(0,0,0,0.15)]  p-[3px] bg-white h-24">
+                <div className={`absolute ${size.width >= 390? "top-3":"top-7"} left-5 flex items-center`}>
+                    <div className={`rounded-full shadow-[0px_0px_5px_5px_rgba(0,0,0,0.15)]  p-[3px] bg-white ${size.width >= 390? 'h-20':'h-16'}`}>
                         <img src={Avatar} alt="" className="rounded-full"/>
                     </div>
                     <div className="pl-2 text-start">
-                        <div className="font-poppins font-medium">
+                        <div className={`font-poppins font-bold tracking-[1.5px] ${size.width >= 390? "text-[15px]":"text-[11px]"}` }>
                             M E L I S S A
                         </div>
-                        <div className="font-poppins text-sm">
+                        <div className={`font-poppins  ${size.width >= 390? "text-[13px]":"text-[10px]"}`}>
                             Colorado, USA
                         </div>
                     </div>
                 </div>
             </div>
         </SwiperSlide>
-        <SwiperSlide className="mb-20">
-            <div className="relative mx-1 pt-24">
-                <div className="rounded-[20px] border border-[#8a50a0] h-[400px] w-[300px] px-6 py-10">
+        <SwiperSlide className="mb-20 ">
+            <div className={`relative mx-1 pt-20`}>
+                <div className={`rounded-[20px] border border-[#8a50a0] ${size.width >= 390? "h-[340px] w-[280px] px-6":"h-[300px] w-[180px] px-4"}  py-10`}>
                     <div className=" flex gap-1">
-                        <AiFillStar size={30} color={"#8a50a0"}/>
-                        <AiFillStar size={30} color={"#8a50a0"}/>
-                        <AiFillStar size={30} color={"#8a50a0"}/>
-                        <AiFillStar size={30} color={"#8a50a0"}/>
-                        <AiFillStar size={30} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
+                        <AiFillStar size={size.width >= 390 ?25: 20} color={"#8a50a0"}/>
                     </div>
-                    <div className="h-full text-start overflow-auto text-[15px] font-poppins pt-6 font-medium">
+                    <div className={`h-full text-start overflow-auto ${size.width >= 390? "text-[12.5px]":"text-[8.5px]"} font-poppins pt-6 font-medium`}>
                         "I’ve researched relationships most of 
                         my life. However, I couldn’t find anything 
                         that explained my dynamic in them. I 
@@ -123,15 +123,15 @@ export default function ItemsSlider() {
                         problem and how to solve it!"
                     </div>
                 </div>
-                <div className="absolute top-3 left-5 flex items-center">
-                    <div className="rounded-full shadow-[0px_0px_5px_5px_rgba(0,0,0,0.15)]  p-[3px] bg-white h-24">
+                <div className={`absolute ${size.width >= 390? "top-3":"top-7"} left-5 flex items-center`}>
+                    <div className={`rounded-full shadow-[0px_0px_5px_5px_rgba(0,0,0,0.15)]  p-[3px] bg-white ${size.width >= 390? 'h-20':'h-16'}`}>
                         <img src={Avatar} alt="" className="rounded-full"/>
                     </div>
                     <div className="pl-2 text-start">
-                        <div className="font-poppins font-medium">
+                        <div className={`font-poppins font-bold tracking-[1.5px] ${size.width >= 390? "text-[15px]":"text-[11px]"}` }>
                             M E L I S S A
                         </div>
-                        <div className="font-poppins text-sm">
+                        <div className={`font-poppins  ${size.width >= 390? "text-[13px]":"text-[10px]"}`}>
                             Colorado, USA
                         </div>
                     </div>

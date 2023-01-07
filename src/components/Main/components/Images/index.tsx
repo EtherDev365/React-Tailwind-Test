@@ -6,7 +6,7 @@ import Ellipse5 from "src/assets/Ellipse45.svg";
 const Images = () => {
   return (
     <div className="relative mt-5 ">
-      <div className="pl-10 pt-5 h-[600px]">  
+      <div className="pl-10 pt-5 h-[700px]">  
         <img src={Ellipse4} alt="Ellipse"/>
       </div>
       <div className="absolute bottom-0 flex-1">  
@@ -17,7 +17,7 @@ const Images = () => {
           <div className="absolute top-0 w-1/2 flex items-start">
             <img src={Image1}alt="firstImage"/>
           </div>
-          <div className="absolute right-0 bottom-0 w-1/2 flex items-end ">
+          <div className="absolute right-0 bottom-0 w-1/2 flex items-end pl-3">
             <img src={Image2} alt="firstImage"/>
           </div>
         </div>

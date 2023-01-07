@@ -11,7 +11,7 @@ const Header = () => {
         <div className="text-3xl sm:text-5xl xl:text-3xl font-bold">
           Fearful Avoidant Attachment Style
         </div>
-        <div className="mt-4 text-left md:text-center font-poppins text-[11px]">
+        <div className="mt-4 text-left md:text-center font-poppins text-[11px] font-medium">
           Check your email inbox to access your full report on your attachment
           style and read below to find out how to:{" "}
         </div>

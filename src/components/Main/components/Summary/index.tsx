@@ -24,12 +24,12 @@ const Summary = () => {
   return (
     <div className="relative xl:mt-10">
       <div className="w-full text-start px-4 xl:p-0">
-        {items.map((item) => 
-          <div className="mt-4">
-            <div className="text-[15px] sm:text-[20px] xl:text-[17px] font-bold font-poppins tracking-[2px] xl:tracking-[4px]">
+        {items.map((item, index) => 
+          <div key={index} className="mt-4">
+            <div className="text-[15px] sm:text-[20px] xl:text-[17px] font-bold font-poppins tracking-[4px] xl:tracking-[6px]">
               {item.title}
             </div>
-            <div className="text-[11px] sm:text-[14px] xl:text-[14px]  mt-4 font-poppins">
+            <div className="text-[11px] sm:text-[14px] xl:text-[14px]  mt-4 font-poppins font-medium">
               {item.description}
             </div>
           </div>
